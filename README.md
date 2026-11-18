@@ -1,4 +1,13 @@
 # Robotic-Process-Automation
+
+[English](README.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
+
+Diagrams use English labels in all language versions.
+
+An architecture diagram for a base station operations and maintenance automation platform. It connects an Angular UI, a Spring Boot backend, Python/Ansible automation, XGBoost prediction, and a Hadoop/Spark/Hive data platform, with Jenkins CI/CD, Zabbix monitoring, and Kubernetes/Helm infrastructure.
+
+## Architecture
+
 ```mermaid
 flowchart TB
     %% === Robotic Process Automation System ===
